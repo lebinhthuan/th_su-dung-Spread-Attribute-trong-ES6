@@ -1,11 +1,18 @@
 
-// Example 3: We will use the spread operator with objects
-// cars1 object
+
+//Example 4: We will use spread operator for merging objects.
+// cars1 is a object which is containing
+// the attributes Brand  & Color
 const cars1 = {
-    Brand : "BMW",
+    Brand : "Toyota",
     Color : "RED"
 }
-// copy cars1 object using spread
-// operator to create cars2 object
-const cars2 = {...cars1};
-console.log(cars2);
+// cars2 is a object which is containing
+// the attributes Brand, Color & Year
+const cars2 = {
+    Brand : "Nissan",
+    Color : "BLUE",
+    Year : 2004
+}
+const cars3 = {...cars1,...cars2};
+console.log(cars3);
