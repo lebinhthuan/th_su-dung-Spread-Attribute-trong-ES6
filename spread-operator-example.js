@@ -1,18 +1,7 @@
 
 
-//Example 4: We will use spread operator for merging objects.
-// cars1 is a object which is containing
-// the attributes Brand  & Color
-const cars1 = {
-    Brand : "Toyota",
-    Color : "RED"
-}
-// cars2 is a object which is containing
-// the attributes Brand, Color & Year
-const cars2 = {
-    Brand : "Nissan",
-    Color : "BLUE",
-    Year : 2004
-}
-const cars3 = {...cars1,...cars2};
-console.log(cars3);
+
+// Example 5: Use the spread operator to split the string into an array of strings.
+const car = "AUDI";
+const a = [...car];
+console.log(a);
